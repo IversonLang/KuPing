@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{854d73dc-be31-4b2b-91ba-d0eb4dc60cbd}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{01f475f0-4bfd-4d71-9e38-d4f1061957ca}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4bf77976-a194-4edc-912f-e7549ffad05f}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="SoUI Resouece">
+      <UniqueIdentifier>{056d4eaa-532a-4c45-886f-846993e8cfa2}</UniqueIdentifier>
+      <Extensions>idx;xml;png;gif;jpg;ico;lua;bmp</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.txt" />
+    <None Include="res\soui_res.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="uires\xml\init.xml">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="uires\xml\dlg_main.xml">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="uires\image\soui.ico">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="uires\xml\menu_tray.xml">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+    <None Include="uires\image\traymenu_icons.png">
+      <Filter>SoUI Resouece</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kp5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trayicon\SShellNotifyIcon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="kp5.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trayicon\SShellNotifyIcon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="uires\uires.idx">
+      <Filter>SoUI Resouece</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

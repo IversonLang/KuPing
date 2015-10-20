@@ -1,0 +1,4 @@
+LIBRARY ScriptServer
+EXPORTS 
+	ExecScriptString @1
+	ExecScriptFile   @2

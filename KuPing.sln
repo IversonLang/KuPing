@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kp5", "kp5\kp5.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lua", "Lua\Lua.vcxproj", "{EAA5AA5F-F13A-4DBF-B36A-6FD3D75E416E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuaServer", "LuaServer\LuaServer.vcxproj", "{A5475109-3A11-43B6-AC9B-2F57C9422EEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -19,6 +21,10 @@ Global
 		{EAA5AA5F-F13A-4DBF-B36A-6FD3D75E416E}.Debug|Win32.Build.0 = Debug|Win32
 		{EAA5AA5F-F13A-4DBF-B36A-6FD3D75E416E}.Release|Win32.ActiveCfg = Release|Win32
 		{EAA5AA5F-F13A-4DBF-B36A-6FD3D75E416E}.Release|Win32.Build.0 = Release|Win32
+		{A5475109-3A11-43B6-AC9B-2F57C9422EEC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A5475109-3A11-43B6-AC9B-2F57C9422EEC}.Debug|Win32.Build.0 = Debug|Win32
+		{A5475109-3A11-43B6-AC9B-2F57C9422EEC}.Release|Win32.ActiveCfg = Release|Win32
+		{A5475109-3A11-43B6-AC9B-2F57C9422EEC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

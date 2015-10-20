@@ -1,0 +1,1 @@
+1 生成dll时 需预定义宏 LUA_BUILD_AS_DLL 并且不要编译 lua.c 和 luac.c

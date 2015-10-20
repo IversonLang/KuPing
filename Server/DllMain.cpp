@@ -14,7 +14,7 @@ BOOL WINAPI DllMain( HANDLE hDllHandle, DWORD dwReason, LPVOID lpreserved )
     case DLL_PROCESS_ATTACH:
         OutputDebugString("Server Dll Attach\n");
         if(g_hDll == NULL){
-            g_hDll = LoadLibrary("ScriptServer.dll");
+            g_hDll = LoadLibrary("LuaServer.dll");
             if (g_hDll == NULL){
                 OutputDebugString("Server Dll Attach Fail\n");
                 RunString = NULL;
@@ -23,8 +23,6 @@ BOOL WINAPI DllMain( HANDLE hDllHandle, DWORD dwReason, LPVOID lpreserved )
             }
             RunString = (fnRunString)GetProcAddress(g_hDll,"ExecScriptString");
             RunFile = (fnRunFile)GetProcAddress(g_hDll,"ExecScriptFile");
-
-            //RunString("a = Windows.MessageBox(\"Hello\",\"Œ“»•\",2) \r\n Windows.MessageBox(a)");
             RunFile("../t.lua");
         }
     case DLL_PROCESS_DETACH:

@@ -54,7 +54,6 @@ LRESULT WINAPI MsgProc(HWND hWnd,UINT msg, WPARAM wParam,LPARAM lParam)
                 PostQuitMessage(0);
             }
             break;
-
     }
 
     return DefWindowProc(hWnd,msg,wParam,lParam);

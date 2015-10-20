@@ -1,4 +1,4 @@
-LIBRARY ScriptServer
+LIBRARY LuaServer
 EXPORTS 
 	ExecScriptString @1
 	ExecScriptFile   @2

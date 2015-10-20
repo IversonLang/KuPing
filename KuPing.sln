@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lua", "Lua\Lua.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuaServer", "LuaServer\LuaServer.vcxproj", "{A5475109-3A11-43B6-AC9B-2F57C9422EEC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Run", "Run\Run.vcxproj", "{DACB2CE9-87A8-455D-B924-273E0F52E318}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server", "Server\Server.vcxproj", "{FFFDAE47-71C9-4B40-8BA7-2E88FD4598A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -25,6 +29,14 @@ Global
 		{A5475109-3A11-43B6-AC9B-2F57C9422EEC}.Debug|Win32.Build.0 = Debug|Win32
 		{A5475109-3A11-43B6-AC9B-2F57C9422EEC}.Release|Win32.ActiveCfg = Release|Win32
 		{A5475109-3A11-43B6-AC9B-2F57C9422EEC}.Release|Win32.Build.0 = Release|Win32
+		{DACB2CE9-87A8-455D-B924-273E0F52E318}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DACB2CE9-87A8-455D-B924-273E0F52E318}.Debug|Win32.Build.0 = Debug|Win32
+		{DACB2CE9-87A8-455D-B924-273E0F52E318}.Release|Win32.ActiveCfg = Release|Win32
+		{DACB2CE9-87A8-455D-B924-273E0F52E318}.Release|Win32.Build.0 = Release|Win32
+		{FFFDAE47-71C9-4B40-8BA7-2E88FD4598A6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FFFDAE47-71C9-4B40-8BA7-2E88FD4598A6}.Debug|Win32.Build.0 = Debug|Win32
+		{FFFDAE47-71C9-4B40-8BA7-2E88FD4598A6}.Release|Win32.ActiveCfg = Release|Win32
+		{FFFDAE47-71C9-4B40-8BA7-2E88FD4598A6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
